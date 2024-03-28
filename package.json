@@ -1,0 +1,37 @@
+{
+  "name": "cesium-wp",
+  "version": "1.0.0",
+  "description": "Cesium Webpack application",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack serve --config webpack.config.js --open",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amantiwari-gt/cesium-webpack.git"
+  },
+  "keywords": [
+    "cesium",
+    "3d",
+    "webpack"
+  ],
+  "author": "Aman Tiwari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amantiwari-gt/cesium-webpack/issues"
+  },
+  "homepage": "https://github.com/amantiwari-gt/cesium-webpack#readme",
+  "devDependencies": {
+    "cesium": "^1.115.0",
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^6.10.0",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^3.3.4",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
